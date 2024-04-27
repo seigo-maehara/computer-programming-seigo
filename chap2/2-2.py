@@ -10,7 +10,7 @@ class Date:
     def __str__(self):
         return "このインスタンスは"+str(self.year)+"年"+str(self.month)+"月"+str(self.day)+"日です。"
     
-    def __gt__(self,other):
+    def __gt__(self, other):
         if self.year > other.year:
             return True
         elif self.year < other.year:
